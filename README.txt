@@ -38,7 +38,7 @@ A JavaFX desktop application that filters movies using IMDB `.tsv` data and a SQ
 5. Run MovieFilterApp.java to launch the app.
 
 ## Project Structure
-![Project Structure Screenshot](src\main\resources\com\example\moviefilter\images\Screenshot 2025-04-15 160303.png)
+![Project Structure Screenshot](src/main/resources/com/example/moviefilter/images/Screenshot%202025-04-15%20160303.png)
 
 ## Usage
 - Start the app

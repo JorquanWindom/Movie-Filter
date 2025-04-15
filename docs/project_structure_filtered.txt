@@ -1,0 +1,73 @@
+--- Folder Structure ---
+.gitignore
+[.idea]
+    ├── .gitignore
+    ├── compiler.xml
+    ├── encodings.xml
+    ├── jarRepositories.xml
+    ├── misc.xml
+    └── workspace.xml
+[.mvn]
+    └── [wrapper]
+        ├── maven-wrapper.jar
+        └── maven-wrapper.properties
+[.vscode]
+    └── settings.json
+[docs]
+moviedb.db
+mvnw
+mvnw.cmd
+pom.xml
+project-structure.txt
+[src]
+    └── [main]
+        ├── [java]
+            ├── [com]
+                └── [example]
+                    └── [moviefilter]
+                        ├── [controllers]
+                            └── MovieFilterController.java
+                        ├── [models]
+                            ├── ConnectDB.java
+                            ├── Filter.java
+                            ├── Movie.java
+                            ├── RatingFilter.java
+                            ├── YearAscFilter.java
+                            └── YearDescFilter.java
+                        ├── MovieFilterApp.java
+                        └── README.txt
+            └── module-info.java
+        └── [resources]
+            ├── [com]
+                └── [example]
+                    └── [moviefilter]
+                        ├── movie-filter-view.fxml
+                        ├── title.basics.tsv
+                        └── title.ratings.tsv
+            └── [database]
+                └── moviedb.db
+[target]
+    ├── [classes]
+        ├── [com]
+            └── [example]
+                └── [moviefilter]
+                    ├── [controllers]
+                        └── MovieFilterController.class
+                    ├── [models]
+                        ├── ConnectDB.class
+                        ├── Filter.class
+                        ├── Movie.class
+                        ├── RatingFilter.class
+                        ├── YearAscFilter.class
+                        └── YearDescFilter.class
+                    ├── movie-filter-view.fxml
+                    ├── MovieFilterApp.class
+                    ├── README.txt
+                    ├── title.basics.tsv
+                    └── title.ratings.tsv
+        ├── [database]
+            └── moviedb.db
+        └── module-info.class
+    └── [test-classes]
+
+--- File Contents ---
